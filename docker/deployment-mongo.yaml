@@ -6,7 +6,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - mongo-db: mnt/data/db
+      - mongo-db:/mnt/data/db
 
 volumes:
   mongo-db:
